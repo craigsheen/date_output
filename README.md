@@ -20,17 +20,25 @@ Or install it yourself as:
 
 In your view use the helpers to output the formatted dates.
 	
-	self.full_date_with_time(date) #=> Thursday 28th March 2013 14:42pm
+	full_date_with_time(date) #=> Thursday 28th March 2013 14:42pm
 	
-	self.short_date_with_time(date) #=> Thu 28th Mar 13 14:42pm
+	short_date_with_time(date) #=> Thu 28th Mar 13 14:42pm
 	  
-	self.numbered_date_with_time(date) #=> 28/03/2013 14:42pm
+	numbered_date_with_time(date) #=> 28/03/2013 14:42pm
 	   
-	self.numbered_date(date) #=> 28/03/2013
+	numbered_date(date) #=> 28/03/2013
 	  
-	self.full_date(date) #=> Thursday 28th March 2013
+	full_date(date) #=> Thursday 28th March 2013
 	  
-	self.short_date(date) #=> Thu 28th Mar 13
+	short_date(date) #=> Thu 28th Mar 13
+	
+	long_date_no_day(date) #=> 28th March 2013
+
+  short_date_no_day(date) #=> 28th Mar 13
+
+  long_date_no_day_with_time(date) #=> 28th March 2013 14:42pm
+
+  short_date_no_day_with_time(date) #=> 28th Mar 13 14:42pm
 	
 You can also pass in some options to to customise the output.  These are passes in as a hash.  For example:
 

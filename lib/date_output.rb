@@ -33,6 +33,26 @@ module DateOutput
     date.strftime("%a #{date.day.ordinalize} %b %y")
   end
   
+  def self.long_date_no_day(date, options)
+    set_options(options)
+    date.strftime("#{date.day.ordinalize} %B %Y")
+  end
+  
+  def self.short_date_no_day(date, options)
+    set_options(options)
+    date.strftime("#{date.day.ordinalize} %b %y")
+  end
+  
+  def self.long_date_no_day_with_time(date, options)
+    set_options(options)
+    date.strftime("#{date.day.ordinalize} %B %Y %H:%M%P")
+  end
+  
+  def self.short_date_no_day_with_time(date, options)
+    set_options(options)
+    date.strftime("#{date.day.ordinalize} %b %y %H:%M%P")
+  end
+  
   private
   def self.set_options(options)
     # options.each do |k,v|

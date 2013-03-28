@@ -25,5 +25,21 @@ module DateOutput
       DateOutput.short_date(date,options)
     end
     
+    def long_date_no_day(date, options={})
+      DateOutput.long_date_no_day(date, options)
+    end
+
+    def short_date_no_day(date, options={})
+      DateOutput.short_date_no_day(date, options)
+    end
+
+    def long_date_no_day_with_time(date, options={})
+      DateOutput.long_date_no_day_with_time(date, options)
+    end
+
+    def short_date_no_day_with_time(date, options={})
+      DateOutput.long_date_no_day_with_time(date, options)
+    end
+    
   end
 end
