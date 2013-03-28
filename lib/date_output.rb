@@ -3,27 +3,27 @@ require "date_output/version"
 
 module DateOutput
   
-  def full_date_with_time(date)
+  def self.full_date_with_time(date)
     date.strftime("%A #{date.day.ordinalize} %B %Y %H:%M%P")
   end
   
-  def short_date_with_time(date)
+  def self.short_date_with_time(date)
     date.strftime("%a #{date.day.ordinalize} %b %y %H:%M%P")
   end
   
-  def numbered_date_with_time(date)
+  def self.numbered_date_with_time(date)
     date.strftime("%d/%m/%Y %H:%M%P")
   end
   
-  def numbered_date(date)
+  def self.numbered_date(date)
     date.strftime("%d/%m/%Y")
   end
   
-  def full_date(date)
+  def self.full_date(date)
     date.strftime("%A #{date.day.ordinalize} %B %Y")
   end
   
-  def short_date(date)
+  def self.short_date(date)
     date.strftime("%a #{date.day.ordinalize} %b %y")
   end
   
