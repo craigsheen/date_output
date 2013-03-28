@@ -1,28 +1,28 @@
 module DateOutput
   module ViewHelpers
     
-    def full_date_with_time(date)
-      DateOutput.full_date_with_time(date)
+    def full_date_with_time(date,options)
+      DateOutput.full_date_with_time(date,options)
     end
 
-    def short_date_with_time(date)
-      DateOutput.short_date_with_time(date)
+    def short_date_with_time(date,options)
+      DateOutput.short_date_with_time(date,options)
     end
 
-    def numbered_date_with_time(date)
-      DateOutput.numbered_date_with_time(date)
+    def numbered_date_with_time(date,options)
+      DateOutput.numbered_date_with_time(date,options)
     end
 
-    def numbered_date(date)
-      DateOutput.numbered_date(date)
+    def numbered_date(date,options)
+      DateOutput.numbered_date(date,options)
     end
 
-    def full_date(date)
-      DateOutput.full_date(date)
+    def full_date(date,options)
+      DateOutput.full_date(date,options)
     end
 
-    def short_date(date)
-      DateOutput.short_date(date)
+    def short_date(date,options)
+      DateOutput.short_date(date,options)
     end
     
   end
