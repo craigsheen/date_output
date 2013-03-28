@@ -1,5 +1,5 @@
 module DateOutput
-  class DateOutputHelper < ::ApplicationHelper
+  module ViewHelpers
     
     def full_date_with_time(date)
       DateOutput.full_date_with_time(date)
