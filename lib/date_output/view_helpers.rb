@@ -38,7 +38,7 @@ module DateOutput
     end
 
     def short_date_no_day_with_time(date, options={})
-      DateOutput.long_date_no_day_with_time(date, options)
+      DateOutput.short_date_no_day_with_time(date, options)
     end
     
   end
