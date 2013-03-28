@@ -38,7 +38,7 @@ You can also pass in some options to to customise the output.  These are passes 
 	
 Current options are:
 	
-:seperator => string::  This is the seperator used between the numbered dates.  If you do not specify this the default of "/" will be used.
+	seperator :: string - This is the seperator used between the numbered dates.  If you do not specify this the default of "/" will be used.
 
 ## Contributing
 
