@@ -18,7 +18,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In your view use the helpers to output the formatted dates.
+	
+		self.full_date_with_time(date) => Thursday 28th March 2013 14:42pm
+
+	  self.short_date_with_time(date) => Thu 28th Mar 13 14:42pm
+	  
+		self.numbered_date_with_time(date) => 28/03/2013 14:42pm
+	   
+		self.numbered_date(date) => 28/03/2013
+	  
+		self.full_date(date) => Thursday 28th March 2013
+	  
+		self.short_date(date) => Thu 28th Mar 13
 
 ## Contributing
 
