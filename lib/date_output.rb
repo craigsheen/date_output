@@ -20,7 +20,7 @@ module DateOutput
   
   def self.numbered_date(date, options)
     set_options(options)
-    date.strftime("%d/%m/%Y")
+    date.strftime("%d#{@seperator}%m#{@seperator}%Y")
   end
   
   def self.full_date(date, options)

@@ -32,9 +32,9 @@ In your view use the helpers to output the formatted dates.
 	  
 	self.short_date(date) #=> Thu 28th Mar 13
 	
-You can also pass in some options to to customise the output.
+You can also pass in some options to to customise the output.  These are passes in as a hash.  For example:
 
-	self.numbered_date_with_time(date, options={:seperator => "-"}) #=> 28-03-2013 14:42pm
+	self.numbered_date_with_time(date, {:seperator => "-"}) #=> 28-03-2013 14:42pm
 	
 Current options are:
 	
