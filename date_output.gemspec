@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["craig_sheen@hotmail.com"]
   spec.description   = %q{A gem to with shortcuts and simple worded outputs for dates.}
   spec.summary       = %q{A gem to with shortcuts and simple worded outputs for dates.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/craigsheen/date_output"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
