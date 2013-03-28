@@ -34,11 +34,11 @@ In your view use the helpers to output the formatted dates.
 	
 	long_date_no_day(date) #=> 28th March 2013
 
-  short_date_no_day(date) #=> 28th Mar 13
+	short_date_no_day(date) #=> 28th Mar 13
 
-  long_date_no_day_with_time(date) #=> 28th March 2013 14:42pm
+	long_date_no_day_with_time(date) #=> 28th March 2013 14:42pm
 
-  short_date_no_day_with_time(date) #=> 28th Mar 13 14:42pm
+	short_date_no_day_with_time(date) #=> 28th Mar 13 14:42pm
 	
 You can also pass in some options to to customise the output.  These are passes in as a hash.  For example:
 
