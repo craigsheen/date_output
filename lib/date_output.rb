@@ -29,4 +29,4 @@ module DateOutput
   
 end
 
-require 'my_gem/railtie' if defined?(Rails)
+require 'date_output/railtie' if defined?(Rails)
